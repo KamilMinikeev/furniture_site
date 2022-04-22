@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top top-header">
+        <div class="container top-header__inner">
+          <div class="top-header__start">
+            <ul class="top-header__list">
+              <li class="top-header__list-item"><a href="#" class="top-header__list-link">Сборка</a></li>
+              <li class="top-header__list-item"><a href="#" class="top-header__list-link">доставка</a></li>
+              <li class="top-header__list-item"><a href="#" class="top-header__list-link">покупателю</a></li>
+              <li class="top-header__list-item"><a href="#" class="top-header__list-link">отзывы</a></li>
+              <li class="top-header__list-item"><a href="#" class="top-header__list-link">вопрос-ответ</a></li>
+            </ul>
+          </div>
+          <div class="top-header__end">
+            <a href="#" class="logo">
+              <picture>
+                <source srcset="images/logo-mobile.png" media="(max-width: 500px)">
+                <img src="images/logo.png" alt="logo">
+              </picture>
+            </a>
+            <div class="top-header__end-item">
+              <div class="top-header__city">
+                <a href="#" class="top-header__city-geo">
+                  <img src="images/geo.svg" alt="">
+                </a>
+                <div class="top-header__city-item">
+                  <div class="top-header__city-title">Мой город</div>
+                  <a href="" class="top-header__city-name">Москва</a>
+                </div>
+              </div>
+              <div class="top-header__contacts">
+                <a href="tel:84993756200" class="top-header__phone-img">
+                  <img src="images/phone.svg" alt="">
+                </a>
+                <div class="top-header__contacts-item">
+                  <a href="tel:84993756200" class="top-header__contacts-phone">8 (499) 375-62-00</a>
+                  <a href="tel:89606092907" class="top-header__contacts-phone">8 (960) 609-29-07</a>
+                  <p class="top-header__contacts-hours">Без выходных 9:00-21:00</p>
+                </div>
+              </div>
+              <button class="top-header__call-btn">Заказать звонок</button>
+              <div class="top-header__products">
+                <button class="top-header__favorites-btn">
+                  <img src="images/favorites.svg" alt="" class="top-header__favorites-img">
+                </button>
+                <button class="top-header__cart-btn">
+                  <img src="images/cart.svg" alt="" class="top-header__cart-img">
+                </button>
+              </div>
+
+            </div>
+            <button class="header__btn btn-menu">
+              <span class="btn-menu__box">
+                <span class="btn-menu__inner"></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom bottom-header">
+        <div class="container bottom-header__inner">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item"><a href="#" class="menu__list-link">главная</a>
+                <ul>
+                  <li><a href="#">Гостиная</a></li>
+                  <li><a href="#">Прихожая</a></li>
+                  <li><a href="#">Спальня</a>
+                    <ul>
+                      <li><a href="#">Готовые композиции</a></li>
+                      <li><a href="#">Тумбы прикроватные</a></li>
+                      <li><a href="#">Кровати</a>
+                        <ul>
+                          <li class="active"><a href="#">Двуспальные</a></li>
+                          <li class="active"><a href="#">Односпальные</a></li>
+                          <li class="active"><a href="#">Двухъярусная</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Шкафы для спальни</a></li>
+                      <li><a href="#">Туалетные столики</a></li>
+                      <li><a href="#">Комоды</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Детская</a></li>
+                  <li><a href="#">Кабинет</a></li>
+                  <li><a href="#">Производители</a></li>
+                  <li><a href="#">Столы и стулья</a></li>
+                  <li><a href="#">По материалу</a></li>
+                  <li><a href="#">По предметам</a></li>
+                </ul>
+              </li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">каталог</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">sale</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">контакты</a></li>
+            </ul>
+          </nav>
+          <button class="bottom-header__search-btn">
+            <img src="images/search.svg" alt="" class="bottom-header__search-img">
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section section-top">
+        <div class="section-top__slider top-slider">
+          <div class="top-slider__item"><img src="images/bg-1.png" alt="background">
+            <div class="top-slider__number">
+              <span class="top-slider__number-active">01</span>
+              <span class="top-slider__number-all">03</span>
+            </div>
+          </div>
+          <div class="top-slider__item"><img src="images/bg-1.png" alt="background">
+            <div class="top-slider__number">
+              <span class="top-slider__number-active">02</span>
+              <span class="top-slider__number-all">03</span>
+            </div>
+          </div>
+          <div class="top-slider__item"><img src="images/bg-1.png" alt="background">
+            <div class="top-slider__number">
+              <span class="top-slider__number-active">03</span>
+              <span class="top-slider__number-all">03</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-advantages">
+        <div class="container">
+          <h2 class="section-advantages__title section-title">Наши преимущества</h2>
+          <div class="section-advantages__content">
+            <div class="section-advantages__item">
+              <img src="images/advantages1.svg" alt="" class="section-advantages__item-img">
+              <h4 class="section-advantages__item-title">Качество</h4>
+              <p class="section-advantages__item-text">Вся мебель производится на фабриках, много лет работающих на
+                рынке</p>
+            </div>
+            <div class="section-advantages__item">
+              <img src="images/advantages2.svg" alt="" class="section-advantages__item-img">
+              <h4 class="section-advantages__item-title">доступные цены</h4>
+              <p class="section-advantages__item-text">Самый широкий ассортимент продукции по доступным ценам</p>
+            </div>
+            <div class="section-advantages__item">
+              <img src="images/advantages3.svg" alt="" class="section-advantages__item-img">
+              <h4 class="section-advantages__item-title">сроки</h4>
+              <p class="section-advantages__item-text">Изготовление и доставка мебели строго в оговоренные сроки</p>
+            </div>
+            <div class="section-advantages__item">
+              <img src="images/advantages4.svg" alt="" class="section-advantages__item-img">
+              <h4 class="section-advantages__item-title">доставка, сборка</h4>
+              <p class="section-advantages__item-text">Сервис доставки и сборки мебели</p>
+            </div>
+            <div class="section-advantages__item">
+              <img src="images/advantages5.svg" alt="" class="section-advantages__item-img">
+              <h4 class="section-advantages__item-title">подход</h4>
+              <p class="section-advantages__item-text">Полная консультация по интересующим Вас вопросам</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-reviews">
+        <div class="container section-reviews__container">
+          <div class="section-reviews__item">
+            <div class="section-reviews__video" id="vidwrap">
+            </div>
+            <a href="#" class="section-reviews__all">Все отзывы</a>
+          </div>
+          <div class="section-reviews__content">
+            <h3 class="section-reviews__title">Компания «Алекс-Мебель» выступает под девизом «Мы предлагаем Вам лучшее»
+            </h3>
+            <p class="section-reviews__text">Компания «Алекс-Мебель» выступает под девизом «Мы предлагаем Вам лучшее».
+            </p>
+            <p class="section-reviews__text"> В каталоге продукции вы сможете выбрать и купить варианты мебели на любой
+              вкус и цвет: деревянный стол,
+              стол с искусственным камнем, обеденную группу недорого, мебель для кухни на заказ более 150 наименований.
+            </p>
+            <p class="section-reviews__text"> Покупая мебель у нас, Вы получаете оптимальное сочетание цены и качества!
+            </p>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section section-promotions">
+        <div class="container section-promotions__container">
+          <div class="section-promotions__top">
+            <h2 class="section-title section-promotions__title">Акции</h2>
+            <button class="section-promotions__btn">смотреть все</button>
+          </div>
+          <div class="section-promotions__slider slider-promotions">
+            <div>
+              <div class="slider-promotions__item">
+                <img src="images/promotions-product1.png" alt="" class="slider-promotions__img">
+                <h5 class="slider-promotions__title">Стул</h5>
+                <p class="slider-promotions__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <div class="slider-promotions__price">
+                  <span class="slider-promotions__price-now">7 000 ₽</span>
+                  <span class="slider-promotions__price-old">7 000 ₽</span>
+                </div>
+                <a href="" class="slider-promotions__more">Подробнее</a>
+              </div>
+            </div>
+            <div>
+              <div class="slider-promotions__item">
+                <img src="images/promotions-product2.png" alt="" class="slider-promotions__img">
+                <h5 class="slider-promotions__title">Стул</h5>
+                <p class="slider-promotions__text">Lorem ipsum dolor sit amet, consectetur </p>
+                <div class="slider-promotions__price">
+                  <span class="slider-promotions__price-now">7 000 ₽</span>
+                  <span class="slider-promotions__price-old">7 000 ₽</span>
+                </div>
+                <a href="" class="slider-promotions__more">Подробнее</a>
+              </div>
+            </div>
+            <div>
+              <div class="slider-promotions__item">
+                <img src="images/promotions-product3.png" alt="" class="slider-promotions__img">
+                <h5 class="slider-promotions__title">Стул</h5>
+                <p class="slider-promotions__text">Loremamet, consectetur adipiscing elit. </p>
+                <div class="slider-promotions__price">
+                  <span class="slider-promotions__price-now">7 000 ₽</span>
+                  <span class="slider-promotions__price-old">7 000 ₽</span>
+                </div>
+                <a href="" class="slider-promotions__more">Подробнее</a>
+              </div>
+            </div>
+            <div>
+              <div class="slider-promotions__item">
+                <img src="images/promotions-product4.png" alt="" class="slider-promotions__img">
+                <h5 class="slider-promotions__title">Стул</h5>
+                <p class="slider-promotions__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <div class="slider-promotions__price">
+                  <span class="slider-promotions__price-now">7 000 ₽</span>
+                  <span class="slider-promotions__price-old">7 000 ₽</span>
+                </div>
+                <a href="" class="slider-promotions__more">Подробнее</a>
+              </div>
+            </div>
+            <div>
+              <div class="slider-promotions__item">
+                <img src="images/promotions-product1.png" alt="" class="slider-promotions__img">
+                <h5 class="slider-promotions__title">Стул</h5>
+                <p class="slider-promotions__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <div class="slider-promotions__price">
+                  <span class="slider-promotions__price-now">7 000 ₽</span>
+                  <span class="slider-promotions__price-old">7 000 ₽</span>
+                </div>
+                <a href="" class="slider-promotions__more">Подробнее</a>
+              </div>
+            </div>
+            <div>
+              <div class="slider-promotions__item">
+                <img src="images/promotions-product2.png" alt="" class="slider-promotions__img">
+                <h5 class="slider-promotions__title">Стул</h5>
+                <p class="slider-promotions__text">Lorem ipsum dolor sit amet, consectetur </p>
+                <div class="slider-promotions__price">
+                  <span class="slider-promotions__price-now">7 000 ₽</span>
+                  <span class="slider-promotions__price-old">7 000 ₽</span>
+                </div>
+                <a href="" class="slider-promotions__more">Подробнее</a>
+              </div>
+            </div>
+            <div>
+              <div class="slider-promotions__item">
+                <img src="images/promotions-product3.png" alt="" class="slider-promotions__img">
+                <h5 class="slider-promotions__title">Стул</h5>
+                <p class="slider-promotions__text">Loremamet, consectetur adipiscing elit. </p>
+                <div class="slider-promotions__price">
+                  <span class="slider-promotions__price-now">7 000 ₽</span>
+                  <span class="slider-promotions__price-old">7 000 ₽</span>
+                </div>
+                <a href="" class="slider-promotions__more">Подробнее</a>
+              </div>
+            </div>
+            <div>
+              <div class="slider-promotions__item">
+                <img src="images/promotions-product4.png" alt="" class="slider-promotions__img">
+                <h5 class="slider-promotions__title">Стул</h5>
+                <p class="slider-promotions__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <div class="slider-promotions__price">
+                  <span class="slider-promotions__price-now">7 000 ₽</span>
+                  <span class="slider-promotions__price-old">7 000 ₽</span>
+                </div>
+                <a href="" class="slider-promotions__more">Подробнее</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-works">
+        <div class="container section-works__container">
+          <h2 class="section-title section-works__title">Этапы работ</h2>
+          <div class="section-works__content">
+            <div class="section-works__item">
+              <span class="section-works__item-number">01</span>
+              <div class="section-works__item-img">
+                <img src="images/work1.svg" alt="">
+              </div>
+              <h5 class="section-works__item-title">Заявка</h5>
+              <p class="section-works__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            </div>
+            <div class="section-works__item">
+              <span class="section-works__item-number">02</span>
+              <div class="section-works__item-img">
+                <img src="images/work2.svg" alt="">
+              </div>
+              <h5 class="section-works__item-title">замер</h5>
+              <p class="section-works__item-text">Lorem ipsum dolor sit amet, consectetur</p>
+            </div>
+            <div class="section-works__item">
+              <span class="section-works__item-number">03</span>
+              <div class="section-works__item-img">
+                <img src="images/work3.svg" alt="">
+              </div>
+              <h5 class="section-works__item-title">производство</h5>
+              <p class="section-works__item-text">Consectetur adipiscing elit lorem </p>
+            </div>
+            <div class="section-works__item">
+              <span class="section-works__item-number">04</span>
+              <div class="section-works__item-img">
+                <img src="images/work4.svg" alt="">
+              </div>
+              <h5 class="section-works__item-title">установка</h5>
+              <p class="section-works__item-text">Lorem ipsum dolor sit amet, consectetur Lorem psumconsectetur </p>
+            </div>
+          </div>
+          <button class="section-works__btn">сделать заказ</button>
+        </div>
+      </section>
+
+      <section class="section section-news">
+        <div class="container section-news__container">
+          <h2 class="section-title section-news__title">Новости компании</h2>
+          <div class="section-news__slider slider-news">
+            <div class="slider-news__item">
+              <img src="images/news1.png" alt="" class="slider-news__img">
+              <p class="slider-news__text">преимущества мебели из натурального дерева</p>
+            </div>
+            <div class="slider-news__item">
+              <img src="images/news2.png" alt="" class="slider-news__img">
+              <p class="slider-news__text">Lorem ipsum dolor sit</p>
+            </div>
+            <div class="slider-news__item">
+              <img src="images/news3.png" alt="" class="slider-news__img">
+              <p class="slider-news__text">искусственный камень - новое слово в кухонной мебели</p>
+            </div>
+            <div class="slider-news__item">
+              <img src="images/news4.png" alt="" class="slider-news__img">
+              <p class="slider-news__text">Lorem ipsum dolor sitLorem ipsum dolor sit</p>
+            </div>
+            <div class="slider-news__item">
+              <img src="images/news1.png" alt="" class="slider-news__img">
+              <p class="slider-news__text">преимущества мебели из натурального дерева</p>
+            </div>
+            <div class="slider-news__item">
+              <img src="images/news2.png" alt="" class="slider-news__img">
+              <p class="slider-news__text">Lorem ipsum dolor sit</p>
+            </div>
+            <div class="slider-news__item">
+              <img src="images/news3.png" alt="" class="slider-news__img">
+              <p class="slider-news__text">искусственный камень - новое слово в кухонной мебели</p>
+            </div>
+            <div class="slider-news__item">
+              <img src="images/news4.png" alt="" class="slider-news__img">
+              <p class="slider-news__text">Lorem ipsum dolor sitLorem ipsum dolor sit</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-questions">
+        <div class="container section-questions__container">
+          <h2 class="section-title section-questions__title">Недорогая мебель от ведущих производителей в Москве</h2>
+          <div class="section-questions__content">
+            <p class="section-questions__text">Неотъемлемым атрибутом нашей жизнедеятельности является мебель, которая
+              окружает нас повсюду – дома, на работе, в магазинах, банках, ресторанах, административных учреждениях и т.
+              д. Мебель выполняет ряд функциональных задач, а также служит в качестве средства выражения индивидуальной
+              эстетики и личных предпочтений человека. Сочетая в себе красоту и комфорт, она еще и должна отличаться
+              неповторимостью стилистических решений. Современные реалии диктуют свои условия относительно
+              проектирования жилья: сегодня оно требует более творческого и индивидуального подхода к организации
+              интерьера. Грамотно подобранная с учетом всех особенностей вашего жилища мебель позволит вам достичь
+              рационального использования пространства помещения и получения максимально функционального интерьера.</p>
+            <p class="section-questions__text">Если вы желаете купить мебель от производителя недорого, мы всегда к
+              вашим услугам! Мы реализуем изделия, в полной мере будет соответствующие тем параметрам, которые заявляет
+              для них фабрика мебели. Эксплуатационные характеристики и качество конструкций порадуют вас своим высоким
+              уровнем. У нас вы всегда сможете приобрести на выгодных условиях столы деревянные и металлические, стулья
+              деревянные и металлические, табуреты, банкетки, кухонные уголки, кресла, пуфы, угловые диваны, диваны
+              еврокнижки, диваны-аккордеоны. Красивая, удобная, долговечная и престижная мебель у нас сочетается с
+              вполне разумными ценами.</p>
+          </div>
+          <div class="section-questions__accordion accordion-questions">
+            <div class="accordion-questions__item">
+              <div class="accordion-questions__header" data-collapse="#one">
+                <h3 class="accordion-questions__title">Чем обусловлена стоимость мебели в нашем
+                  интернет-магазине?</h3>
+                <div class="accordion-questions__arrow"></div>
+              </div>
+              <div class="accordion-questions__content" id="one">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Ipsa
+                pariatur ratione quia itaque consectetur eius tenetur mollitia! Voluptatibus consequatur, reiciendis
+                consequuntur distinctio odio dignissimos cum fugit, officiis sed unde, impedit veniam itaque facilis
+                magnam ducimus eum placeat quasi odit similique.</div>
+            </div>
+            <div class="accordion-questions__item">
+              <div class="accordion-questions__header" data-collapse="#two">
+                <h3 class="accordion-questions__title">Почему стоит приобрести мебель именно в нашем
+                  интернет-магазине?</h3>
+                <div class="accordion-questions__arrow"></div>
+              </div>
+              <div class="accordion-questions__content" id="two">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Ipsa
+                pariatur ratione quia itaque consectetur eius tenetur mollitia! Voluptatibus consequatur, reiciendis
+                consequuntur distinctio odio dignissimos cum fugit, officiis sed unde, impedit veniam itaque facilis
+                magnam ducimus eum placeat quasi odit similique.</div>
+            </div>
+            <div class="accordion-questions__item">
+              <div class="accordion-questions__header" data-collapse="#three">
+                <h3 class="accordion-questions__title">Чем выгодна торговля через Интернет?</h3>
+                <div class="accordion-questions__arrow"></div>
+              </div>
+              <div class="accordion-questions__content" id="three">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Ipsa
+                pariatur ratione quia itaque consectetur eius tenetur mollitia! Voluptatibus consequatur, reiciendis
+                consequuntur distinctio odio dignissimos cum fugit, officiis sed unde, impedit veniam itaque facilis
+                magnam ducimus eum placeat quasi odit similique.</div>
+            </div>
+            <div class="accordion-questions__item">
+              <div class="accordion-questions__header" data-collapse="#fore">
+                <h3 class="accordion-questions__title">в чем Преимущества интернет-магазинов?</h3>
+                <div class="accordion-questions__arrow"></div>
+              </div>
+              <div class="accordion-questions__content" id="fore">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Ipsa
+                pariatur ratione quia itaque consectetur eius tenetur mollitia! Voluptatibus consequatur, reiciendis
+                consequuntur distinctio odio dignissimos cum fugit, officiis sed unde, impedit veniam itaque facilis
+                magnam ducimus eum placeat quasi odit similique.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-form">
+        <div class="container section-form__container">
+          <div class="section-form__item">
+            <div class="section-form__item-contacts contacts-form">
+              <h3 class="contacts-form__title">Остались вопросы?</h3>
+              <p class="contacts-form__text">Заполните форму и мы Вам перезвоним или свяжитесь с нами сами!</p>
+              <div class="contacts-form__item">
+                <img src="images/phone.svg" alt="" class="contacts-form__phone-img">
+                <div class="contacts-form__phone-item">
+                  <a href="tel:84993756200" class="contacts-form__phone">8 (499) 375-62-00</a>
+                  <a href="tel:89606092907" class="contacts-form__phone">8 (960) 609-29-07</a>
+                  <p class="contacts-form__hours">Без выходных 9:00-21:00</p>
+                </div>
+              </div>
+            </div>
+            <div class="section-form__request">
+              <form action="" class="form-request">
+                <input placeholder="ФИО" type="text" class="form-request__input">
+                <input placeholder="Телефон" type="text" class="form-request__input">
+                <textarea placeholder="Ваш вопрос" class="form-request__textarea"></textarea>
+                <input type="checkbox" class="form-request__checkbox" id="robot">
+                <label for="robot">Я не робот</label>
+                <button type="submit" class="form-request__btn">Оставить заявку</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="container footer__container">
+          <div class="footer__about">
+            <a href="#" class="logo">
+              <picture>
+                <source srcset="images/logo-mobile.png" media="(max-width: 500px)">
+                <img src="images/logo.png" alt="logo">
+              </picture>
+            </a>
+            <div class="footer__about-content">
+              <div class="footer__about-products">
+                <h5 class="footer__about-title">продукция</h5>
+                <ul class="footer__list">
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Производители</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">По предметам</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Столы и стулья</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">По материалам</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Для гостиной</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Для кабинета</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Для прихожей</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Для детской</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Для спальни</a></li>
+                </ul>
+              </div>
+              <div class="footer__about-company">
+                <h5 class="footer__about-title">О компании</h5>
+                <ul class="foote__list">
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Контакты</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Покупателю</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Отзывы</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Сборка</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Доставка</a></li>
+                  <li class="footer__list-item"><a href="" class="footer__list-link">Вопрос-ответ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__contacts contacts-footer">
+            <div class="contacts-footer__item">
+              <a href="tel:84993756200" class="contacts-footer__phone-img">
+                <img src="images/phone.svg" alt="phone">
+              </a>
+              <div class="contacts-footer__phone-item">
+                <a href="tel:84993756200" class="contacts-footer__phone">8 (499) 375-62-00</a>
+                <a href="tel:89606092907" class="contacts-footer__phone">8 (960) 609-29-07</a>
+              </div>
+            </div>
+            <div class="contacts-footer__email">
+              <a href="mailto:sale.alexgroup@mail.ru" class="contacts-footer__email-img">
+                <img src="images/mail.svg" alt="mail">
+              </a>
+              <a href="mailto:sale.alexgroup@mail.ru" class="contacts-footer__email-link">sale.alexgroup@mail.ru</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="container">
+          <span>© «АлекГрупп» ОГРН 1147154026205, 2014 — 2022 – мебель для кухни.
+          </span>
+        </div>
+      </div>
+
+
+    </footer>
+  </div>
+
+  <div class="popup popup-menu">
+    <div class="popup__wrapper popup-menu__wrapper">
+      <div class="popup__inner popup-menu__inner">
+        <div class="popup__content popup-menu__content">
+          <button class="btn-close popup__btn-close popup-close"></button>
+          <div class="popup-menu__logo container">
+            <a href="#" class="logo">
+              <!-- <img src="images/logo.png" alt="" class="popup-menu__logo-img"> -->
+              <picture>
+                <source srcset="images/logo-mobile.png" media="(max-width: 500px)">
+                <img src="images/logo.png" alt="logo" class="popup-menu__logo-img">
+              </picture>
+            </a>
+          </div>
+          <nav class="menu popup-menu__nav">
+            <ul class="menu__list">
+              <li class="menu__list-item"><a href="#" class="menu__list-link">главная</a>
+                <ul>
+                  <li><a href="#">Гостиная</a></li>
+                  <li><a href="#">Прихожая</a></li>
+                  <li><a href="#">Спальня</a>
+                    <ul>
+                      <li><a href="#">Готовые композиции</a></li>
+                      <li><a href="#">Тумбы прикроватные</a></li>
+                      <li><a href="#">Кровати</a>
+                        <ul>
+                          <li class="active"><a href="#">Двуспальные</a></li>
+                          <li class="active"><a href="#">Односпальные</a></li>
+                          <li class="active"><a href="#">Двухъярусная</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Шкафы для спальни</a></li>
+                      <li><a href="#">Туалетные столики</a></li>
+                      <li><a href="#">Комоды</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Детская</a></li>
+                  <li><a href="#">Кабинет</a></li>
+                  <li><a href="#">Производители</a></li>
+                  <li><a href="#">Столы и стулья</a></li>
+                  <li><a href="#">По материалу</a></li>
+                  <li><a href="#">По предметам</a></li>
+                </ul>
+              </li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">каталог</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">sale</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">контакты</a></li>
+            </ul>
+          </nav>
+          <button class="popup__btn popup-menu__btn top-header__call-btn">Заказать звонок</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
